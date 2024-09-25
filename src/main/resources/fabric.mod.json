@@ -3,8 +3,8 @@
   "id": "shareenderchest",
   "version": "1.6.3",
 
-  "name": "ShareEnderChest",
-  "description": "Shift + Right-click any enderchest to use it as a Shared Ender Chest",
+  "name": "HuntersEnderChest",
+  "description": "Shift + Right-click any enderchest to use Hunter's Ender Chest",
   "authors": [
     "kripesh101",
     "eght",
