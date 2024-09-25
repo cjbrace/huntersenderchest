@@ -92,7 +92,7 @@ public class ShareEnderChest implements ModInitializer, ServerStopping, ServerSt
     }
 
     public void onInitialize() {
-        System.out.println("ShareEnderChest (Fabric) loaded");
+        System.out.println("HuntersEnderChest (Fabric) loaded");
         openSharedInventory = new OpenSharedInventory(UUID.randomUUID());
 
         UseBlockCallback listenerUseBlock = (player, world, hand, hitResult) -> {
@@ -149,7 +149,7 @@ public class ShareEnderChest implements ModInitializer, ServerStopping, ServerSt
 
     public static void openSharedEnderChest(PlayerEntity player) {
         player.openHandledScreen(new SimpleNamedScreenHandlerFactory((int_1, playerInventory, playerEntity) -> new GenericContainerScreenHandler(ScreenHandlerType.GENERIC_9X6, int_1, playerInventory, sharedInventory,
-                6), Text.of("Shared Ender Chest")));
+                6), Text.of("Hunter's Ender Chest")));
     }
 
     public static boolean isEnderChest(ItemStack stack) {
